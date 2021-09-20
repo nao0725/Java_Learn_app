@@ -13,7 +13,7 @@ public class Chapter06 {
 		Boolean bool = (val == 50);
 		System.out.println(bool);
 		
-		bool = ( val < 50) && (val % 10 == 0); 
+		bool =  val < 50 && val % 10 == 0; 
 		System.out.println(bool);
 	}
 }
