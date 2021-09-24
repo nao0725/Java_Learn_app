@@ -1,8 +1,8 @@
 package classMethod.human;
 
 public class Human05 {
-	private String name;
-	private int age;
+	public String name;
+	public int age;
 	
 	public Human05() {
 		name = "山田";
