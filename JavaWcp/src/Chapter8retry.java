@@ -13,8 +13,11 @@ public class Chapter8retry {
 			System.out.println(array[i]);
 		}
 		
+//		数値のデータ型の変数numberに配列を代入
 		for(int number : array) {
+//			偶数＝２で割ったときに０になる数なので、%で割った値が０と等しいことを条件にする
 			if(number % 2 == 0) {
+//				 偶数の場合処理をスキップする
 				continue;
 			}
 			System.out.println(number);
