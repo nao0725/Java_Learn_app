@@ -9,7 +9,7 @@ public class Chapter09 {
 	    // 残量（L）
 	    double cost = 55.0;
 		
-		Car car = new Car(0, val,cost);
+		Car car = new Car(val,cost);
 		car.distance(100);
 		System.out.println("残量は、" + car.amount() + "です");
 	}

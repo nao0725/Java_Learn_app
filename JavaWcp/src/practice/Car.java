@@ -4,7 +4,7 @@ public class Car {
 	private double val;
 	private double cost;
 	
-	public Car(int distance, double val, double cost) {
+	public Car(double val, double cost) {
 		this.val = val;
 		this.cost = cost;
 	}
