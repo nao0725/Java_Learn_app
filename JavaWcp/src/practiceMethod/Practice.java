@@ -26,6 +26,7 @@ public class Practice {
 			// ・SQLExceptionをキャッチして、メッセージとスタックトレースを出力
 		} catch (SQLException s) {
 			System.out.println("SQLエラーです");
+//			下記のために6行目にthrows SQLExceptionを宣言 printStackTrace()で代用可
 			throw s;
 		}
 		// ・"throwSQLExceptionの呼び出し終了"のメッセージを出力
@@ -39,7 +40,7 @@ public class Practice {
 //		配列のサイズはlengthメソッドを使用　列のサイズは3で3と条件に合致しているので下記の文が出力される
 		if (array.length <= index) {
 			// サイズの範囲外なら、IllegalArgumentExceptionをスロー
-//			49行目のSQLExceptionを使用
+//			49行目のSQLExceptionを使用してスタックトレースを出力
 			throw new IllegalArgumentException(index + "はサイズの範囲外です");
 		}
 		// indexがarrayのサイズの範囲内なら、インデックスの要素を出力
