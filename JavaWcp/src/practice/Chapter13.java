@@ -8,8 +8,7 @@ public class Chapter13 {
         // MobilePhoneインスタンスを生成
         MobilePhone mobilePhone = new MobilePhone("000-1111-2222");
         mobilePhone.takePicture();
-        Chapter13.staticCall(mobilePhone, "99-8888-7777");
-        mobilePhone.powerOff();
+
 
         // flyingPhoneインスタンスを生成
         FlyingPhone flyingPhone = new FlyingPhone(5);
