@@ -10,11 +10,9 @@ public class Polymorphism02 {
 		Polymorphism02 polymorphism = new Polymorphism02();
 		
 		polymorphism.printName();
-		
 		polymorphism.printName("松本");
 		polymorphism.printName("松本", "清水");
 		polymorphism.printName(human);
-
 	}
 	
 	public void printName() {
