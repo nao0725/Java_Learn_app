@@ -1,6 +1,7 @@
 package polymorphism.human;
 
 public class Human {
+//	フィールドメソッドを定義
 	private String name;
 	protected int age;
 
