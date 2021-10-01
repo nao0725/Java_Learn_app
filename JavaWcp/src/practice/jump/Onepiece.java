@@ -15,7 +15,7 @@ public class Onepiece extends Jump{
 	public String getProfile() {
 //		ここで新たに値を作成（異なる結果になる値）
 		String profile = super.dream + "に俺はなる！！";
-		profile += "仲間" + this.count + "は欲しいな";
+		profile += "仲間" + this.count + "人は欲しいな";
 //		戻り値を設定
 		return profile;
 	}
